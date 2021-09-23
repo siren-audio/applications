@@ -1,0 +1,37 @@
+Generative 2.0.5
+
+- Fixed error when recording did not work without opening the record settings dialog
+- Removed faded buttons for quick randomisation of segments and normalisation. These are now clickable buttons in the lower right hand waveform area.
+
+Generative 2.0.4
+
+- Added drag and drop to allow file and folders to be dropped on waveform display.
+- Fixed problem with MIDI controller number 0 controlling all assignments.
+- Added drag and drop to allow preset files to be dropped and loaded in preset area.
+
+Generative 2.0.3
+
+- When zooming in and out, the mouse position is correctly scaled allowing you to use the add/edit/delete, and position controls.
+
+Generative 2.0.2
+
+-Gain style graphical filters are limited to +/- 24 db.
+-Fixed problems with using the inbuilt coreaudio driver on some OSX systems.
+-Fixed copy selection function causing playhead drawing / device soloing problems.
+-Made on/off controls in to toggles (not drop down menus).
+-Various user interface refinements.
+-In the States window, a preset can now only be selected if it has been saved.
+-Removed ordered segments button from States window (in practice this is the same as using random segments).
+-Added random positions function to the States window.
+-Ability to control granular parameters via MIDI (stored as a preference).
+-Removed "Voices" and "Global Pitch Variation" menu items, now accessible in the Grain Settings Window.
+
+
+Generative 2.0.1
+
+- Fixed problems with soloing and muting devices.
+- Fixed problem where playheads weren’t drawn properly.
+- Copying pitches to individual devices now works (only worked with copy all previously).
+- Lower waveform sometimes wasn’t responding to clicks, now fixed.
+- Fixed problem with graphical filters not recalling settings when turned off then back on.
+- A device’s playhead is now only drawn when the device is unmuted and that device has segments.

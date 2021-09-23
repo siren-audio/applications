@@ -1,0 +1,30 @@
+Feedback 2.0.4
+
+- Added drag and drop to allow file and folders to be dropped on waveform display.
+- Added drag and drop to allow preset files to be dropped and loaded in preset area.
+- Fixed MIDI problem with random delay time assignments.
+- Fixed problem with MIDI controller number 0 controlling all assignments (no assignment now shows -10).
+- Fixed MIDI assignment problem with input effects-delay3-mix parameter.
+- Fixed MIDI compressor ratio parameter display problem.
+- Fixed potential problem with loading presets.
+
+
+Feedback 2.0.3
+
+- When changing input and output effects parameters with the mouse, values don’t disappear. 
+
+Feedback 2.0.2
+
+- Fixed problems with using the inbuilt coreaudio driver on some OSX systems.
+- Various user interface refinements.
+- Fixed problems when changing the routing of output effects and reverb.
+
+Feedback 2.0.1
+
+- Fixed problem when using MIDI to clear/record in to delay banks.
+- Added parallel processing to delay units (reduces CPU if you have multicore processor).
+- Fixed problem of waveform display not being clickable after initialise set when audio file loaded.
+- Reverb reflections parameter is on by default, and amplitude is scaled.
+- Fixed MIDI note offset (-1 octave) when in Sampler file playback mode.
+- When in grain and play free ‘click’ and ‘click free’ modes, position control is automatically selected.
+- Fixed input effects not being set to off by default.
